@@ -1,0 +1,202 @@
+/* ! BASICS */
+@font-face {
+  font-family: ClickerScript;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../font/PlayfairDisplay-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: ClickerScript, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #603809;
+  font-family: PlayfairDisplay, "Times New Roman", Times, serif;
+  margin-bottom: 3vh;
+}
+
+h4 {
+  font-size: 28px;
+  color: #603809;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: white;
+  font-family: PlayfairDisplay, "Times New Roman", Times, serif;
+  font-size: 54px;
+}
+
+p {
+  font-size: 20px;
+  font-family: PlayfairDisplay, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+
+a {
+  font-size: 14px;
+  font-family: PlayfairDisplay, "Times New Roman", Times, serif;
+}
+.button {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f9c06a;
+  border-radius: 30px;
+  padding: 10px 15px;
+  max-width: 110px;
+}
+
+/* ! HEADER */
+header {
+  background: linear-gradient(to right, #1d1c1cd7, #faf8f800),
+    url(../img/coffee_image.png) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+
+/* - Navigation */
+nav {
+  width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 4vw 1vh 5vw;
+}
+
+header nav article {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  padding: 1vh 2vw;
+}
+
+/* - Begrüßungsbild */
+header section {
+  color: white;
+  height: 90vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vw;
+}
+
+header section h2 {
+  font-size: 30vh;
+  font-weight: 100;
+}
+
+/* ! MAIN */
+/* - 1. Abschnitt "Discover the best coffee" */
+.abschnitt1 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.abschnitt1 img {
+  background-size: cover;
+}
+
+.abschnitt1 p {
+  color: #707070;
+}
+
+/* - 2. Abschnitt "Why are we different?" */
+.abschnitt2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.icons div {
+  width: 250px;
+  background-color: #fff9f1;
+  padding: 20px 10px;
+  border: 1px solid #ffeed8;
+}
+
+.icons div:hover {
+  background-color: #ffeed8;
+}
+
+.abschnitt2 p {
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.join-us h4 {
+  margin-bottom: 30px;
+}
+
+/* - 3. Abschnitt "Get a chance to have an Amazing morning */
+.abschnitt3 {
+  background: linear-gradient(to top, #603709bf, #603709bf),
+    url(../img/coffee-background.png) no-repeat center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.abschnitt3 article {
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vw;
+}
+
+.abschnitt3 p {
+  color: white;
+  width: 30vw;
+}
+
+.abschnitt3 img {
+  padding: 5vh 15vw;
+}
